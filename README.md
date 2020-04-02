@@ -13,4 +13,4 @@
 
 `wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/build.sh && sh build.sh`
 
-###如果没有错误，那么表示nginx已经安装完毕
+### 如果没有错误，那么表示nginx已经安装完毕
