@@ -1,6 +1,9 @@
 ## This Project will help you to rebuild our sites
+
 *reference from [Anyi Server](zh.wikimirror.org/wiki/help)*
+
 **准备工作**：
+
 ---
 * 一台**未受封锁**的电脑或者vps。(本脚本默认使用[*Ubuntu18.04*]("https://releases.ubuntu.com/18.04.4/"))
 * 一个**域名**，如果没有将不能或者较难配置https加密。
