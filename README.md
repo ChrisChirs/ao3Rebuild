@@ -10,9 +10,9 @@
 * 一个会对错误提问的**大脑**。
 
 ## nginx installation:
-**请确定您当前终端的命令行前缀是root,如果不是请先输入`sudo su root`回车再输入密码，密码默认是不会显示的，不要大惊小怪。**
+**请确定您当前终端的命令行前缀是root,如果不是,请先输入`sudo su root`回车再输入密码，密码默认是不会显示的，不要大惊小怪。**
 
-`wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/build.sh && sh build.sh`
+然后输入`wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/build.sh && sh build.sh`并回车。
 
 ### 如果没有错误，那么表示nginx已经安装完毕
 
