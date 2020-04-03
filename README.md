@@ -6,8 +6,10 @@
 
 ---
 * 一台**未受封锁**的电脑或者vps。(本脚本默认使用[*Ubuntu18.04*]("https://releases.ubuntu.com/18.04.4/"))
+*   --本脚本默认采用[**Netherlands**]("https://en.wikipedia.org/wiki/Netherlands")的服务器。
 * 一个**域名**，如果没有将不能或者较难配置https加密。
 * 一个会对错误提问的**大脑**。
+* ## ⚠服务器所处地区不同会造成CDN的不同，需要稍微调整ao.conf
 
 ## nginx installation:
 **请确定您当前终端的命令行前缀是root,如果不是,请先输入`sudo su root`回车再输入密码，密码默认是不会显示的，不要大惊小怪。**
