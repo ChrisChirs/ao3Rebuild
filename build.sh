@@ -25,7 +25,7 @@ apt-get install openssl
 apt-get install libssl-dev
 ln -s /usr/lib/x86_64-linux-gnu/libssl.a /usr/lib/libssl.a
 ln -s /usr/lib/x86_64-linux-gnu/libcrypto.a /usr/lib/libcrypto.a
-cd /home/chris
+cd /root
 if [ ! -d "./nginx-1.16.1" ];then
     if [ ! -f "./nginx-1.16.1.tar.gz" ];then
         wget https://nginx.org/download/nginx-1.16.1.tar.gz
