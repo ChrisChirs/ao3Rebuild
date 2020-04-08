@@ -17,12 +17,12 @@
 echo "nginx will start to install after 3 second"
 sleep 3s
 apt-get update
-apt-get install build-essential
-apt-get install libtool
-apt-get install libpcre3 libpcre3-dev
-apt-get install zlib1g-dev
-apt-get install openssl
-apt-get install libssl-dev
+apt-get install -y build-essential
+apt-get install -y libtool
+apt-get install -y libpcre3 libpcre3-dev
+apt-get install -y zlib1g-dev
+apt-get install -y openssl
+apt-get install -y libssl-dev
 ln -s /usr/lib/x86_64-linux-gnu/libssl.a /usr/lib/libssl.a
 ln -s /usr/lib/x86_64-linux-gnu/libcrypto.a /usr/lib/libcrypto.a
 cd /root
