@@ -1,6 +1,6 @@
 ## This Project will help you to rebuild our sites
 
-*reference from [Anyi Server](zh.wikimirror.org/wiki/help)*
+*reference from Anyi Server*
 
 **准备工作**：
 
