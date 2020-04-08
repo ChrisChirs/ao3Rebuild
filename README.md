@@ -1,5 +1,5 @@
 ## This Project will help you to rebuild our sites
-
+### 支持登录，不会记录除了ip地址，时间，url之外的任何信息
 *reference from Anyi Server*
 
 **准备工作**：
@@ -26,7 +26,7 @@
 
 `/usr/bin/nginx -c /root/ao.conf`
 
-如果ao.conf没有存放在 **/root** 下，那么请把 **/root/ao.conf** 换成您所存放的位置路径。
+如果ao.conf没有存放在 **/root** 下，那么请把 **/root/ao.conf** 换成您所存放的 **ao.conf** 的路径。
 
 # 我们尊重每个人的创作自由并坚实地拥护每个人的创作自由。
 

@@ -34,7 +34,7 @@ if [ ! -d "./nginx-1.16.1" ];then
     fi
     tar -xzvf nginx-1.16.1.tar.gz
 else
-    echo "Dir has already made,pass tar."
+    echo "Dir has already made,pass it."
 fi
 cd nginx-1.16.1
 #Change the path to openssl.
@@ -43,7 +43,7 @@ echo "Sed End."
 if [ ! -d "./ngx_http_substitutions_filter_module" ];then
     git clone https://github.com/yaoweibin/ngx_http_substitutions_filter_module.git
 else
-    echo "subs has already download,pass."
+    echo "subs has already download,pass it."
 fi
 ./configure --prefix=/usr/local/nginx --with-openssl=/usr --with-http_ssl_module --add-module=./ngx_http_substitutions_filter_module --with-http_v2_module && make && make install
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
