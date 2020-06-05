@@ -1,6 +1,6 @@
 ## This Project will help you to rebuild our sites
 ### 支持登录，不会记录除了ip地址，时间，url之外的任何信息
-*reference from [Anyi Server](zh.wikimirror.org/wiki/help)*
+*reference from [Anyi Server](https://zh.wikimirror.org/wiki/help)*
 
 **准备工作**：
 
