@@ -16,8 +16,6 @@
 
 ### 如果没有错误，那么表示nginx已经安装完毕
 
-然后，您可以下载我们的[ao.conf]("https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/ao.conf")或者签出整个项目`git clone https://github.com/ChrisChirs/ao3Rebuild.git`，对ao.conf的yourdomain和证书更换成您自己的域名和证书。
-
 我们的脚本默认把 **ao.conf** 视为存在 **/home/mirror/** 下。
 
 配置完成后，输入最后一行命令:
