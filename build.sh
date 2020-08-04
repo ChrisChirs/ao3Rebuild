@@ -47,7 +47,7 @@ ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 echo "nginx install finished."
 cd home
 mkdir mirror
-wget wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/ao.conf
+wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/ao.conf
 
 
 #end
