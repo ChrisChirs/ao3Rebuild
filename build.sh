@@ -14,15 +14,12 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #begin
+
+
 echo "nginx will start to install after 3 second"
 sleep 3s
 apt-get update
-apt-get install -y build-essential
-apt-get install -y libtool
-apt-get install -y libpcre3 libpcre3-dev
-apt-get install -y zlib1g-dev
-apt-get install -y openssl
-apt-get install -y libssl-dev
+apt-get install -y build-essential libtool libpcre3 libpcre3-dev zlib1g-dev openssl libssl-dev
 ln -s /usr/lib/x86_64-linux-gnu/libssl.a /usr/lib/libssl.a
 ln -s /usr/lib/x86_64-linux-gnu/libcrypto.a /usr/lib/libcrypto.a
 cd /root
@@ -30,11 +27,11 @@ if [ ! -d "./nginx-1.16.1" ];then
     if [ ! -f "./nginx-1.16.1.tar.gz" ];then
         wget https://nginx.org/download/nginx-1.16.1.tar.gz
     else
-        echo "nginx .tar.gz has already dowload,pass download"
+        echo "nginx .tar.gz has already dowload,passed it"
     fi
     tar -xzvf nginx-1.16.1.tar.gz
 else
-    echo "Dir has already made,pass it."
+    echo "Dir has already made,passed it."
 fi
 cd nginx-1.16.1
 #Change the path to openssl.
@@ -43,9 +40,14 @@ echo "Sed End."
 if [ ! -d "./ngx_http_substitutions_filter_module" ];then
     git clone https://github.com/yaoweibin/ngx_http_substitutions_filter_module.git
 else
-    echo "subs has already download,pass it."
+    echo "subs has already download,passed it."
 fi
 ./configure --prefix=/usr/local/nginx --with-openssl=/usr --with-http_ssl_module --add-module=./ngx_http_substitutions_filter_module --with-http_v2_module && make && make install
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 echo "nginx install finished."
+cd home
+mkdir mirror
+wget wget https://raw.githubusercontent.com/ChrisChirs/ao3Rebuild/master/ao.conf
+
+
 #end
