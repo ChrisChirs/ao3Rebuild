@@ -5,11 +5,10 @@
 **准备工作**：
 
 ---
-* 一台**未受封锁**的电脑或者vps。(本脚本默认使用[*Ubuntu18.04*]("https://releases.ubuntu.com/18.04.4/"))
-*   --本脚本测试环境采用[**Netherlands**]("https://en.wikipedia.org/wiki/Netherlands")的服务器。
+* 一台**未受封锁**的电脑或者vps。(镜像使用[*Ubuntu18.04*]("https://releases.ubuntu.com/18.04.4/"))
+*   --镜实际运行[**Los Angeles**]("https://en.wikipedia.org/wiki/Los_Angeles")的服务器。
 * 一个**域名**，如果没有将不能或者较难配置https加密。
-* 一个会对错误提问的**大脑**。
-
+* 设置域名解析到服务器的ip，添加一条空白的A解析记录即可
 ## nginx installation:
 **请确定您当前终端的命令行前缀是root,如果不是,请先输入`sudo su root`回车再输入密码，密码默认是不会显示的，不要大惊小怪。**
 
